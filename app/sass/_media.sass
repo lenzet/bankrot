@@ -1,0 +1,477 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+  .header
+    .top-panel
+      .city
+        padding-left: 50px
+        width: 235px
+        .address
+          max-width: 185px
+      .phone
+        padding-left: 38px
+      .call-me-wrap
+        .button
+          padding: 14px 40px
+    .center
+      background-position: left center
+
+  .s-law
+    .content
+      padding: 0 100px 0 0
+      .about
+        font-size: 19px
+
+  .s-procedure
+    .steps
+      .item
+        margin-right: 34px
+        .img
+          &::before
+            content: none
+
+  .s-trust
+    .trust
+      .col
+        width: 250px
+
+  .footer
+    .content
+      .city
+        padding-left: 50px
+        width: 235px
+        .address
+          max-width: 185px
+      .phone
+        padding-left: 38px
+      .call-me-wrap
+        .button
+          padding: 14px 40px
+
+@media only screen and (max-width : 1050px)
+  .s-examples
+    padding-bottom: 0
+    .examples-slider
+      .owl-nav
+        position: absolute
+        bottom: 0
+        color: #cbd3dc
+        font-size: 35px
+        text-align: center
+        width: 100%
+        display: block
+        .owl-prev, .owl-next
+          display: inline-block
+          position: static
+          margin: 0 15px 0
+          padding: 5px
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+  .header
+    .top-panel
+      padding: 17px 0 10px
+      .phone
+        float: right
+      .city
+        padding-left: 55px
+    .nav
+      li
+        margin-right: 28px
+        font-size: 12px
+
+  .s-law
+    background: none
+    padding-top: 60px
+    .content
+      padding: 0
+
+  .s-consult
+    background: #2e3235
+    .content
+      .woman
+        display: none
+
+  .s-procedure
+    .steps
+      .item
+        margin-right: 0
+        width: 33.33%
+        &.last
+          width: 50%
+          margin-top: 50px
+
+  .s-list
+    .com
+      font-size: 16px
+
+  .s-checklist
+    background: #f2f2f2
+    margin-top: 80px
+    padding-top: 40px
+    min-height: inherit
+    padding-bottom: 50px
+
+  .s-team-effects
+    margin-top: 15px
+    .team-slider
+      padding-bottom: 50px
+      & > .owl-nav
+        position: absolute
+        bottom: 0
+        color: #cbd3dc
+        font-size: 35px
+        text-align: center
+        width: 100%
+        display: block
+        .owl-prev, .owl-next
+          display: inline-block
+          position: static
+          margin: 0 15px 0
+          padding: 5px
+      .item
+        .content
+          box-shadow: none
+          .left
+            padding: 50px 20px 0 30px
+            ul
+              padding-top: 15px
+              font-size: 14px
+            .docs
+              padding-top: 14px
+          .right
+            img
+              width: 100%
+              height: auto
+  .s-trust
+    .trust
+      background: url(../img/trust-sm.png) no-repeat center top
+  
+  .s-cases
+    .cases-slider
+      .item
+        .content
+          box-shadow: none
+
+  .s-second-consult
+    background: #2e3235
+    .content
+      .man
+        display: none
+
+  .footer
+    .content
+      padding: 17px 0 10px
+      .phone
+        float: right
+      .city
+        padding-left: 55px
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+  /**/
+
+@media only screen and (max-width : 767px)
+  .s-trust
+    .trust
+      background: none
+      .col
+        width: 50%
+  .s-contacts
+    .contacts-text
+      position: static
+      width: 100%
+      padding: 60px 15px
+
+  .popup.thanks-wrapper
+    .thanks
+      padding: 60px 15px 60px
+      &::before
+        content: none
+
+  #map
+    display: none
+
+@media only screen and (max-width : 750px)
+  .header
+    .top-panel
+      .city
+        display: none
+        &.small
+          display: block
+      .phone
+        padding-top: 3px
+    .nav
+      display: none
+
+  .footer
+    .content
+      .city
+        display: none
+        &.small
+          display: block
+      .phone
+        padding-top: 3px
+
+@media only screen and (max-width : 720px)
+  .s-team-effects
+    margin-top: 15px
+    .team-slider
+      .item
+        .content
+          .left
+            width: 100%
+            .docs
+              display: block
+              border-bottom: none
+            .docs-slider
+              width: 70%
+          .right
+            display: none
+
+  .s-cases
+    .cases-slider
+      .item
+        .content
+          box-shadow: none
+          padding: 80px 30px 20px
+
+@media only screen and (max-width : 670px)
+  .header
+    .center
+      .about
+        padding-bottom: 80px
+
+@media only screen and (max-width : 610px)
+  .s-examples
+    .h
+      padding-top: 220px
+    .map-text
+      padding-top: 215px
+
+  .s-consult
+    .content
+      ul
+        li
+          .text
+            width: 100%
+            padding-top: 15px
+
+  .s-procedure
+    .steps
+      padding-top: 0
+      .item
+        margin-top: 50px
+        width: 100%
+        &.last
+          width: 100%
+          margin-top: 50px
+
+  .s-list
+    .list
+      .item
+        width: 50%
+        height: 200px
+
+  .s-team-effects
+    .team-slider
+      .item
+        .content
+          .left
+            .who
+              font-size: 15px
+            .docs-slider
+              width: 90%
+
+  .s-second-consult
+    .content
+      ul
+        li
+          .text
+            width: 100%
+            padding-top: 15px
+            position: static
+
+@media only screen and (max-width : 515px)
+  .header
+    .logo
+      width: 75px
+      overflow: hidden
+
+  .s-team-effects
+    .team-slider
+      .item
+        .content
+          .left
+            .who
+              font-size: 15px
+            .docs-slider
+              width: 90%
+    .effects
+      .item
+        width: 100%
+        margin-bottom: 10px
+
+  .footer
+    .logo
+      width: 75px
+      overflow: hidden
+
+  .popup.form-wrapper
+    .form
+      form
+        padding: 75px 0
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+  .header
+    .center
+      .h1
+        font-size: 39px
+      .about
+        padding-bottom: 60px
+  .s-checklist
+    .h2
+      font-size: 35px
+    .about
+      font-size: 15px
+
+  .s-team-effects
+    .team-slider
+      .item
+        .content
+          .left
+            .docs-slider
+              width: 100%
+
+  .s-cases
+    .cases-slider
+      .item
+        .content
+          .result
+            font-size: 18px
+
+  .footer
+    .bottom
+      span
+        width: 100%
+        display: inline-block
+
+@media only screen and (max-width : 460px)
+  .s-examples
+    .map-text
+      padding-top: 204px
+
+@media only screen and (max-width : 425px)
+  .s-checklist
+    .h2
+      font-size: 30px
+    .about
+      font-size: 14px
+
+  .s-team-effects .team-slider .item .content .left .docs
+    display: none
+
+  .s-trust
+    .trust
+      background: none
+      .col
+        width: 100%
+
+@media only screen and (max-width : 400px)
+  .header
+    .top-panel
+      .phone
+        padding-top: 14px
+        font-size: 14px
+        .number
+          font-size: 20px
+    .center
+      .h1
+        font-size: 35px
+      .about
+        font-size: 18px
+      .text
+        font-size: 15px
+
+  .s-law
+    .content
+      .h2
+        font-size: 26px
+
+  .s-list
+    .list
+      .item
+        width: 100%
+        height: auto
+    .com
+      font-size: 15px
+
+  .s-contacts
+    .contacts-text
+      .h2
+        font-size: 26px
+
+  .footer
+    .content
+      .phone
+        padding-top: 14px
+        font-size: 14px
+        .number
+          font-size: 20px
+
+@media only screen and (max-width : 375px)
+  .s-examples
+    .h
+      padding-top: 185px
+
+  .s-cases
+    .cases-slider
+      .owl-nav
+        font-size: 16px
+
+  .s-consult
+    .content
+      .button
+        font-size: 14px
+
+@media only screen and (max-width : 340px)
+  .s-examples
+    .map-text
+      padding-top: 185px
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+  /**/
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+  /**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+  /**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+  /**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+  /**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+  /**/
+
